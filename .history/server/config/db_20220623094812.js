@@ -12,6 +12,6 @@ module.exports = {
   //"RemoteURI": "your remote host information goes here",
   "HostName": "LocalHost",
   "Secret": "someSecret",
-  "URI": "mongodb+srv:midterm:9wjA0fz5mnsfHchu@cluster0.vqbr1.mongodb.net/BooksApp?retryWrites=true&w=majority"
+  "URI": "mongodb+srv:midterm:9wjA0fz5mnsfHchu@cluster0.vqbr1.mongodb.net/?retryWrites=true&w=majority"
   
 };
