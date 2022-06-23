@@ -10,8 +10,8 @@ module.exports = {
   //local MongoDB deployment ->
   "LocalURI": "mongodb://127.0.0.1/books229",
   //"RemoteURI": "your remote host information goes here",
-  "HostName": "MongodDB Atlas",
+  "HostName": "RemteURi",
   "Secret": "someSecret",
-  "RemoteURI": "mongodb+srv://final:UN49ToLRtJ5hzGFB@cluster0.hxje1.mongodb.net/BooksApp?retryWrites=true&w=majority"
+  "URI": "mongodb+srv://final:UN49ToLRtJ5hzGFB@cluster0.hxje1.mongodb.net/BooksApp?retryWrites=true&w=majority"
   
 };
