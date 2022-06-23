@@ -18,8 +18,10 @@ let mongoose = require('mongoose');
 //let DB = require('./db');
 let DBConfig = require('./db');
 
-mongoose.connect(process.env.URI || DBConfig.LocalURI, {useNewUrlParser: true, useUnifiedTopology: true});
+//mongoose.connect(process.env.URI || DBConfig.LocalURI, {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(process.env.URI || DBConfig.RemoteURI, {useNewUrlParser: true, useUnifiedTopology: true});
 
+mongoose.connect(DBConfig.RemoteURI);
 let mongoDB = mongoose.connection;
 mongoDB.on('error', console.error.bind(console, 'Connection Error:'));
 mongoDB.once('open', ()=> {
